@@ -39,11 +39,19 @@
         align-items: center;
         background-color: #8FB43A;
     }
+    @media screen and (max-width: 1200px){
+        .titre img{ width: 200px !important;}
+        
+    }
+    .titre img{
+        width: 600px;
+    }
     .vn{
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: #B7CE66;
+        color: black;
     
     }
     .la{
@@ -51,13 +59,16 @@
         justify-content: center;
         align-items: center;
         background-color: #B7CE66 ;
+        color: black;
     }
     .ing{
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: #B7CE66;
+        color: black;
     }
+
     .ing:hover {
         background-color: #C8D6A2;
     }
@@ -67,6 +78,9 @@
     .vn:hover {
         background-color: #C8D6A2;
 
+    }
+    .logo:hover{
+        background-color: #C8D6A2;
     }
 
 .ing a{
@@ -86,9 +100,13 @@
 
 }
 
+header{
+    height: 110px;
+}
+
 /*Page d'accueil*/
 
-.parent1 {
+.paragraphe1 {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -96,8 +114,9 @@
     grid-row-gap: 0px;
     }
     
-.parent1 p{ grid-area: 3 / 1 / 4 / 4; }
-.parent2 {
+.paragraphe1 p{ grid-area: 3 / 1 / 4 / 4; }
+
+.paragraphe2 {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -105,7 +124,7 @@
     grid-row-gap: 0px;
     }
     
-.parent2 p{ grid-area: 5 / 4 / 6 / 7; }
+.paragraphe2 p{ grid-area: 5 / 4 / 6 / 7; }
         
 
     .parallaxe{
@@ -117,17 +136,67 @@
     }
     .parallaxe{
         background-image: url(parallax\ background.webp);
+        border: #C8D6A2 solid 5px;
     }
     body{
         background-image: url(texture\ terre.jpg);
         background-size: 30px;
     }
-    .parent1 p{
+    .paragraphe1 p{
         background-color: #D9D9D9;
         border: #C8D6A2 solid 5px;
+        height: 200px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
     }
-    .parent2 p{
-        background-color: #C8D6A2;
+    .paragraphe2 p{
+        height: 150px;
+        background-color: #D9D9D9;
+        border: #C8D6A2 solid 5px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .paragraphe1{
+        height: 300px;
+
+    }
+   
+    .paragraphe2{
+        height: 200px;
+
+
+    }
+    @media screen and (max-width: 1200px) {
+        .paragraphe1 p{
+            font-size: 9px !important;
+        }
+        
+    }
+    @media screen and (max-width: 1200px) {
+        .paragraphe2 p{
+            font-size: 9px !important;
+        }
+        
+    }
+
+
+    /*Footer*/
+
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-image: url(texture\ bedrock.jpg);
+        background-size: 20px;
+        color: white;
+        height: 100px;
+        margin-top: 20px;
     }
 
     
