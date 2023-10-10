@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+*{
+    font-family: 'Rajdhani', sans-serif;
+}
+    
+/* Header */
+.nav {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .logo { grid-area: 1 / 1 / 2 / 2; }
+    .titre { grid-area: 1 / 2 / 2 / 7; }
+    .vn { grid-area: 2 / 1 / 3 / 3; }
+    .la { grid-area: 2 / 3 / 3 / 5; }
+    .ing { grid-area: 2 / 5 / 3 / 7; }
+    
+    
+        
+    
+    .logo img{
+        width: 50px;
+        height: 50px;
+    }
+    .logo{
+        background-color: #8FB43A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #8FB43A;
+    }
+    .vn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #B7CE66;
+    
+    }
+    .la{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #B7CE66 ;
+    }
+    .ing{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #B7CE66;
+    }
+    .ing:hover {
+        background-color: #C8D6A2;
+    }
+    .la:hover {
+        background-color: #C8D6A2;
+    }
+    .vn:hover {
+        background-color: #C8D6A2;
+
+    }
+
+.ing a{
+    text-decoration: none;
+    text-shadow: 2px 2px 2px wheat;
+
+
+}
+.vn a{
+    text-decoration: none;
+    text-shadow: 2px 2px 2px wheat;
+
+}
+.la a{
+    text-decoration: none;
+    text-shadow: 2px 2px 2px wheat;
+
+}
+
+/*Page d'accueil*/
+
+.parent1 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+.parent1 p{ grid-area: 3 / 1 / 4 / 4; }
+.parent2 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+.parent2 p{ grid-area: 5 / 4 / 6 / 7; }
+        
+
+    .parallaxe{
+        background-attachment: fixed;
+        background-position:center ;
+        background-size: cover;
+        height: 50vh;
+        width: 100%;
+    }
+    .parallaxe{
+        background-image: url(parallax\ background.webp);
+    }
+    body{
+        background-image: url(texture\ terre.jpg);
+        background-size: 30px;
+    }
+    .parent1 p{
+        background-color: #D9D9D9;
+        border: #C8D6A2 solid 5px;
+    }
+    .parent2 p{
+        background-color: #C8D6A2;
+    }
