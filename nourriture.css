@@ -199,4 +199,41 @@ header{
         margin-top: 20px;
     }
 
-    
+    /* Valeur nutritive*/
+
+
+    .slide{
+        float: left;
+
+    }
+
+    .slide img{
+        width: 200px;
+        background-image: url(slot.png);
+        background-repeat: no-repeat;
+        background-size: 200px;
+    }
+    .sliders{
+        width: 600px;
+        overflow: hidden;
+
+
+    }
+
+   
+    .slides{
+        width: 1000px;
+        animation: glisse1 7s infinite;
+
+    }
+    @keyframes glisse1 {
+        0% { transform: translateX(0);}
+        33% { transform: translateX(-200px);}
+        66% { transform: translateX(-400px);}
+        100% { transform: translateX(0);}
+        
+    }
+    .slides2{
+        width: 1000px;
+        animation: glisse1 7s infinite;
+    }
