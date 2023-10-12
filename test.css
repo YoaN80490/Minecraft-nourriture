@@ -89,6 +89,26 @@ body{
     background-image: url(texture\ terre.jpg);
     background-size: 20px;
 }
+.parent1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100px;
+
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 4; }
+
+.div1{
+    display: flex;
+    background-color: #8b8b8b;
+    border: solid 3px white;
+    background: rgb(200,214,162);
+background: linear-gradient(90deg, rgba(200,214,162,1) 0%, rgba(183,206,102,1) 66%, rgba(143,180,58,1) 100%);
+    
+}    
 
 .tableaux {
     display: grid;
@@ -96,6 +116,7 @@ body{
     grid-template-rows: repeat(39, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    margin-left: 400px;
     }
     
     .L1 { grid-area: 1 / 1 / 2 / 5; }
@@ -144,6 +165,9 @@ body{
     flex-direction: row;
     background-color: #8b8b8b;
     border: solid white;
+    background: rgb(47,255,47);
+background: linear-gradient(90deg, rgba(47,255,47,1) 0%, rgba(134,255,127,1) 30%, rgba(247,255,112,1) 100%);
+    
 
     .nom{
         display: flex;
@@ -197,6 +221,10 @@ div{
 
 .tableaux img{
     width: 45px;
+
+   
+
+    
 
 
 }
