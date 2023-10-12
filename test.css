@@ -85,6 +85,10 @@
     text-shadow: 2px 2px 2px wheat;
 
 }
+body{
+    background-image: url(texture\ terre.jpg);
+    background-size: 20px;
+}
 
 .tableaux {
     display: grid;
@@ -133,7 +137,9 @@
     .L37 { grid-area: 37 / 1 / 38 / 6; }
     .L38 { grid-area: 38 / 1 / 39 / 6; }
     .L39 { grid-area: 39 / 1 / 40 / 6; }
-.L1{
+
+
+.tableaux section {
     display: flex;
     flex-direction: row;
     
@@ -143,13 +149,16 @@
         justify-content: center;
         align-items: center;
         
-        
+        width: 150px;
+
     }
 
     .icone{
         display: flex;
         justify-content: center;
         align-items: center;
+
+        width: 150px;
         
     }
 
@@ -157,6 +166,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        width: 200px;
         
 
     }
@@ -165,6 +176,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        width: 200px;
       
     }
 
@@ -172,49 +185,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        width: 350px;
         
     }
 }
 
-.L2{
-    display: flex;
-    flex-direction: row;
-    
-
-    .nom{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-        
-    }
-
-    .icone{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
-
-    .faimrestaurée{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-
-    }
-
-    .saturationrestaurée{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      
-    }
-
-    .commentobtenir{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
+.tableaux img{
+    width: 45px;
 }
