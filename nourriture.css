@@ -201,6 +201,12 @@ header{
 
     /* Valeur nutritive*/
 
+    .selection{
+        display: block;
+    }
+    .menu{
+        
+    }
 
     .slide{
         float: left;
@@ -216,9 +222,8 @@ header{
     .sliders{
         width: 600px;
         overflow: hidden;
-
-
-    }
+    
+}
 
    
     .slides{
@@ -237,3 +242,4 @@ header{
         width: 1000px;
         animation: glisse1 7s infinite;
     }
+
