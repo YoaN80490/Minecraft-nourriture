@@ -165,8 +165,9 @@ background: linear-gradient(90deg, rgba(200,214,162,1) 0%, rgba(183,206,102,1) 6
     flex-direction: row;
     background-color: #8b8b8b;
     border: solid white;
-    background: rgb(47,255,47);
-background: linear-gradient(90deg, rgba(47,255,47,1) 0%, rgba(134,255,127,1) 30%, rgba(247,255,112,1) 100%);
+    background: rgb(200,214,162);
+    background: linear-gradient(90deg, rgba(200,214,162,1) 0%, rgba(183,206,102,1) 66%, rgba(143,180,58,1) 100%);
+    
     
 
     .nom{
