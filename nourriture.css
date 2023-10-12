@@ -24,6 +24,7 @@
     .nav{
             position: fixed;
             width: 100%;
+            z-index: -1;
         }
     
     .logo img{
@@ -207,10 +208,28 @@ header{
 
     .selection{
         display: block;
+        width: 200px;
     }
     .menu{
-        
+        display: flex;
+        justify-content: center;
     }
+    .sousmenu {
+       display: none;
+        margin: auto;
+    }
+    .menu:hover  + .sousmenu{
+        display: block;
+    }
+
+  ul{
+    border: black solid 3px;
+}
+li{
+    border: black solid 3px;
+}
+
+
 
     .slide{
         float: left;
