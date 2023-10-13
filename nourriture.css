@@ -230,26 +230,67 @@ header{
     }
 
     .selection{
-        display: block;
+        display: inline-block;
         width: 200px;
+        height: 180px;
+        justify-content: center;
+        align-items: center;
     }
     .menu{
-        display: flex;
-        justify-content: center;
+        text-align: center;
         background-color: #B7CE66;
+        transform-origin: top center;
+        z-index: 2;
+        position: sticky;
+        margin-top: 50px;
     }
     .sousmenu {
+        background-color: #B7CE66;
        display: none;
+       list-style: none;
+       text-align: center;
+       transform-origin: top center;
     }
     .menu:hover .sousmenu{
         display: block;
     }
+   
+    .pauvre:hover {
+        background-color: #C8D6A2;
+    }
 
+    .faible:hover {
+        background-color: #C8D6A2;
+            }
 
+    .normale:hover {
+        background-color: #C8D6A2;
+    }
+    
+    .bonne:hover {
+        background-color: #C8D6A2;
+            }
+        
 
+    .surnaturelle:hover {
+         background-color: #C8D6A2;
+       }
+                
+
+       .conteneur2 {
+        display: grid;
+        grid-template-columns: repeat(5, 202px);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .sectionfaible { grid-area: 1 / 2 / 2 / 5; }
+        .selection { grid-area: 1 / 1 / 2 / 2; }
 
     .slide{
-        float: left;
+       float: left;
+       justify-content: center;
 
 
     }
@@ -281,6 +322,22 @@ header{
     }
     .slides2{
         width: 1000px;
-        animation: glisse1 7s infinite;
     }
 
+.sectionfaible{
+    background-color: #D9D9D9;
+    border: #C8D6A2 solid 5px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+.sectionfaible p{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.textvn{
+    width: 600px;
+    height: 300px;
+}
