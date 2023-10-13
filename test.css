@@ -222,10 +222,31 @@ div{
 
 .tableaux img{
     width: 45px;
-
-   
-
-    
-
-
 }
+
+.Tableaux2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .T1 { grid-area: 1 / 1 / 2 / 4; }
+    .T2 { grid-area: 2 / 1 / 3 / 4; }
+    .T3 { grid-area: 3 / 1 / 4 / 4; }
+    .T4 { grid-area: 4 / 1 / 5 / 4; }
+    .T5 { grid-area: 5 / 1 / 6 / 4; }
+    .T6 { grid-area: 6 / 1 / 7 / 4; }
+    .T7 { grid-area: 7 / 1 / 8 / 4; }
+    .T8 { grid-area: 8 / 1 / 9 / 4; }
+    .T9 { grid-area: 9 / 1 / 10 / 4; }
+    .T10 { grid-area: 10 / 1 / 11 / 4; }
+    .T11 { grid-area: 11 / 1 / 12 / 4; }
+
+
+
+
+
+
+
