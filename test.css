@@ -110,6 +110,22 @@ header{
     height: 110px;
 }
 
+
+    /*Footer*/
+
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-image: url(texture\ bedrock.jpg);
+        background-size: 20px;
+        color: white;
+        height: 100px;
+        margin-top: 20px;
+    }
+    
 body{
     background-image: url(texture\ terre.jpg);
     background-size: 20px;
