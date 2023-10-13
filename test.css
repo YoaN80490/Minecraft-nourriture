@@ -2,13 +2,14 @@
 
 *{
     font-family: 'Rajdhani', sans-serif;
+    box-sizing: border-box;
 }
     
 /* Header */
 .nav {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     }
@@ -20,7 +21,11 @@
     .ing { grid-area: 2 / 5 / 3 / 7; }
     
     
-        
+    .nav{
+            position: fixed;
+            width: 100%;
+            z-index: 1;
+        }
     
     .logo img{
         width: 50px;
@@ -39,11 +44,19 @@
         align-items: center;
         background-color: #8FB43A;
     }
+    @media screen and (max-width: 1200px){
+        .titre img{ width: 200px !important;}
+        
+    }
+    .titre img{
+        width: 600px;
+    }
     .vn{
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: #B7CE66;
+        color: black;
     
     }
     .la{
@@ -51,22 +64,29 @@
         justify-content: center;
         align-items: center;
         background-color: #B7CE66 ;
+        color: black;
     }
     .ing{
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: #B7CE66;
+        color: black;
     }
+
     .ing:hover {
         background-color: #C8D6A2;
     }
+
     .la:hover {
         background-color: #C8D6A2;
     }
     .vn:hover {
         background-color: #C8D6A2;
 
+    }
+    .logo:hover{
+        background-color: #C8D6A2;
     }
 
 .ing a{
@@ -85,6 +105,11 @@
     text-shadow: 2px 2px 2px wheat;
 
 }
+
+header{
+    height: 110px;
+}
+
 body{
     background-image: url(texture\ terre.jpg);
     background-size: 20px;
