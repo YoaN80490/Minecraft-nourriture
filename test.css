@@ -145,7 +145,7 @@ body{
 .div1{
     display: flex;
     background-color: #8b8b8b;
-    border: solid 3px white;
+    
     background: rgb(200,214,162);
 background: linear-gradient(90deg, rgba(200,214,162,1) 0%, rgba(183,206,102,1) 66%, rgba(143,180,58,1) 100%);
     
@@ -157,7 +157,8 @@ background: linear-gradient(90deg, rgba(200,214,162,1) 0%, rgba(183,206,102,1) 6
     grid-template-rows: repeat(39, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    margin-left: 400px;
+    
+    
     }
     
     .L1 { grid-area: 1 / 1 / 2 / 5; }
@@ -205,7 +206,7 @@ background: linear-gradient(90deg, rgba(200,214,162,1) 0%, rgba(183,206,102,1) 6
     display: flex;
     flex-direction: row;
     background-color: #8b8b8b;
-    border: solid white;
+    border: solid white 2px;
     background: rgb(200,214,162);
     background: linear-gradient(90deg, rgba(200,214,162,1) 0%, rgba(183,206,102,1) 66%, rgba(143,180,58,1) 100%);
     
@@ -292,7 +293,7 @@ div{
         display: flex;
     flex-direction: row;
     background-color: #8b8b8b;
-    border: solid white;
+    border: solid white 2px;
     background: rgb(200,214,162);
     background: linear-gradient(90deg, rgba(200,214,162,1) 0%, rgba(183,206,102,1) 66%, rgba(143,180,58,1) 100%);
     }
@@ -306,9 +307,13 @@ div{
         width: 350px;
 
     }
-div{
-        border: solid 1px white;
+
+         .parent2 {
+          div {
+            border: solid white 1px;
+        }
     }
+
 
     .t2{
         display: flex;
@@ -330,9 +335,22 @@ div{
         
     }
 
+
 .parent2 img{
 
     width: 35px;
 
 }
 
+@media screen and (max-width: 1200px) {
+    .parent2 p{
+        font-size: 9px !important;
+    }
+}
+
+    @media screen and (max-width: 1200px) {
+        .tableaux p{
+            font-size: 9px !important;
+        }
+    }
+        a{color: black;}
