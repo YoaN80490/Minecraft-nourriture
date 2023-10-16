@@ -145,7 +145,7 @@ body{
 .div1{
     display: flex;
     background-color: #8b8b8b;
-    
+    margin-top: 15px;
     background: rgb(200,214,162);
 background: linear-gradient(90deg, rgba(200,214,162,1) 0%, rgba(183,206,102,1) 66%, rgba(143,180,58,1) 100%);
     
