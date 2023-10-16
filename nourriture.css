@@ -24,7 +24,7 @@
     .nav{
             position: fixed;
             width: 100%;
-            z-index: 1;
+            z-index: 3;
         }
     
     .logo img{
@@ -208,9 +208,8 @@ header{
     /* Valeur nutritive*/
 
     .textvn{
-        height: 200px;
         font-size: 20px;
-        margin-top: 100px;
+        margin-top: 70px;
         display: flex;
         flex-direction: column;
 
@@ -219,6 +218,18 @@ header{
         background-color: #D9D9D9;
         border: #C8D6A2 solid 5px;
     }
+
+
+    @media screen and (max-width: 1200px) {
+        .description{
+            width: 400px;
+        
+        }
+        .conteneur2{
+            margin-top: 40px;
+        }
+    }
+    
     .subtitre{
         display: flex;
         justify-content: center;
@@ -297,7 +308,28 @@ header{
         .sectionfaible { grid-area: 1 / 3 / 2 / 6; }
         .selection { grid-area: 1 / 1 / 2 / 2; }
 
-    .slide{
+
+
+        .sectionfaible{
+            height: 300px;
+            align-items: center;
+            justify-content: center;
+        }
+        .sectionfaible p{
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+        }
+        
+        .textvn{
+            width: 600px;
+            height: 300px;
+        }
+
+    
+    
+    
+      .slide{
        float: left;
        justify-content: center;
 
@@ -305,112 +337,81 @@ header{
     }
 
     .slide img{
-        width: 200px;
+        width: 150px;
         background-image: url(slot.png);
         background-repeat: no-repeat;
-        background-size: 200px;
+        background-size: 150px;
     }
     .sliders{
-        width: 600px;
+        width: 450px;
         overflow: hidden;
     
 }
 
    
     .slides{
-        width: 1000px;
+        width: 750px;
         animation: glisse1 7s infinite;
 
     }
     @keyframes glisse1 {
         0% { transform: translateX(0);}
-        33% { transform: translateX(-200px);}
-        66% { transform: translateX(-400px);}
+        33% { transform: translateX(-150px);}
+        66% { transform: translateX(-300px);}
         100% { transform: translateX(0);}
         
     }
-    .slides2{
-        width: 600px;
-    }
-
-.sectionfaible{
-    height: 300px;
-    align-items: center;
-    justify-content: center;
-}
-.sectionfaible p{
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-}
-
-.textvn{
-    width: 600px;
-    height: 300px;
-}
 
 
-.sliders3{
-    width: 600px;
-    overflow: hidden;
-
-}
 
 
 .slides3{
-    width: 1600px;
+    width: 1200px;
     animation: glisse3 7s infinite;
 
 }
 @keyframes glisse3 {
     0% { transform: translateX(0);}
-    25% { transform: translateX(-400px);}
-    50% { transform: translateX(-800px);}
-    75% { transform: translateX(-1000px);}
+    25% { transform: translateX(-300px);}
+    50% { transform: translateX(-600px);}
+    75% { transform: translateX(-750px);}
     100% { transform: translateX(0);}
     
 }
 
-.sliders4{
-    width: 600px;
-    overflow: hidden;
-
-}
 
 
 .slides4{
-    width: 2400px;
+    width: 1800px;
     animation: glisse4 7s infinite;
 
 }
 @keyframes glisse4 {
     0% { transform: translateX(0);}
-    20% { transform: translateX(-600px);}
-    40% { transform: translateX(-1200px);}
-    60% { transform: translateX(-1800px);}
-    80% { transform: translateX(-1800px);}
+    20% { transform: translateX(-450px);}
+    40% { transform: translateX(-900px);}
+    60% { transform: translateX(-1350px);}
+    80% { transform: translateX(-1350px);}
     100% { transform: translateX(0);}
     
 }
 
-.sliders5{
-    width: 600px;
-    overflow: hidden;
 
-}
 
 
 .slides5{
-    width: 2000px;
+    width: 1500px;
     animation: glisse5 7s infinite;
 
 }
 @keyframes glisse5 {
     0% { transform: translateX(0);}
-    20% { transform: translateX(-600px);}
-    40% { transform: translateX(-1200px);}
-    60% { transform: translateX(-1400px);}
-    80% { transform: translateX(-1400px);}
+    20% { transform: translateX(-450px);}
+    40% { transform: translateX(-750px);}
+    60% { transform: translateX(-1050px);}
+    80% { transform: translateX(-1050px);}
     100% { transform: translateX(0);}
     
 }
+
+
